@@ -1,0 +1,29 @@
+.user-dropdown {
+  position: absolute;
+  width: 99.5%;
+  margin: 0 0.25%;
+  bottom: 30px;
+  z-index: 3;
+  list-style: none;
+  border: 1px solid #888;
+  background-color: #FFF;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+.user-dropdown li {
+  color: #333;
+  padding: 5px;
+  font-size: 14px;
+}
+.user-dropdown li:before {
+  content: '@';
+}
+.user-dropdown li:nth-child(odd) {
+  background: #EEE;
+}
+.user-dropdown li.marked {
+  background: #BDF;
+  color: #248;
+}

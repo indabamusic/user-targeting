@@ -9,9 +9,11 @@
     "component/view": "*"
   },
   "development": {},
-  "license": "MIT",
-  "main": "index.js",
+  "styles": ["lib/user-targeting.css"],
   "scripts": [
-    "index.js"
-  ]
+    "index.js",
+    "lib/targeting.js",
+    "lib/dropdown.js"
+  ],
+  "license": "MIT"
 }
