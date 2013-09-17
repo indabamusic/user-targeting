@@ -1,0 +1,17 @@
+{
+  "name": "user-targeting",
+  "repo": "AndreasKlein/user-targeting",
+  "description": "Targeting users in chat rooms",
+  "version": "0.1",
+  "keywords": ["usernames", "targeting", "mention", "@", "@user"],
+  "dependencies": {
+    "component/jquery": "*",
+    "component/view": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
