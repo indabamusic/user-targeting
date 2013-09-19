@@ -3,9 +3,7 @@ var targeting = require('./lib/targeting')
 
 
 UserTargeting = {
-  initDropdown: function($inputEl, getCurrentUsers, char) {
-    return dropdown($inputEl, getCurrentUsers, char);
-  },
+  initDropdown: dropdown,
   targeting: targeting
 };
 
