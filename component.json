@@ -6,7 +6,7 @@
   "keywords": ["usernames", "targeting", "mention", "@", "@user"],
   "dependencies": {
     "component/jquery": "*",
-    "component/view": "*"
+    "indabamusic/view": "*"
   },
   "development": {},
   "styles": ["lib/user-targeting.css"],
